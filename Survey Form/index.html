@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header><h1 id="title">A survey by freecodecamp</h1>
+        <p id="description">Thank you for lending some time and filling out the survey</p>
+    </header>
+    <div class="section">
+        <form id="survey-form">
+            <label for="name" id="name-label"><strong>Name:</strong></label><br>
+            <input id="name" type="text" placeholder=" Your Name" required><br>
+            <label for="email" id="email-label"><strong>Email:</strong></label><br>
+            <input type="email" id="email" placeholder=" e.g: xyz@gmail.com" required><br>
+            <label for="age" id="number-label"><strong>Age: <span>(optional)</span></strong></label>
+            <input type="number" min="10" max="100" id="number" placeholder="Enter your age"><br>
+            <label for="dropdown" id="dropdown-label"><strong>What is your current role?</strong></label><br>
+            <select id="dropdown" name="role" required>
+                <option disabled selected value="disabled">Select your current role:</option>
+                <option value="student">Student</option>
+                <option value="part">Part time job</option>
+                <option value="full">Full time job</option>
+                <option value="no">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select><br>
+            <fieldset>
+                <legend><strong>What level coder are you?</strong></legend>
+                <input id="newbie" type="radio" name="levels" value="newbie" class="dots" required>
+                <label for="newbie" class="radio-label">Pupil</label><br>
+                <input id="intermediate" type="radio" name="levels" value="intermediate" class="dots" required>
+                <label for="intermediate" class="radio-label">Expert</label><br>
+                <input id="master" type="radio" name="levels" value="master" class="dots" required>
+                <label for="master" class="radio-label">Master</label>
+              </fieldset><br>
+            <fieldset>
+                <legend><strong>Select the areas you have hold onto:</strong></legend>
+                <input id="cp" type="checkbox" name="fields" value="cp" class="dots">
+                <label for="cp" class="checkbox-label">Competitive Programming</label><br>
+                <input id="webd" type="checkbox" name="fields" value="webd" class="dots">
+                <label for="webd" class="checkbox-label">Web Development</label><br>
+                <input id="ml" type="checkbox" name="fields" value="ml" class="dots">
+                <label for="ml" class="checkbox-label">Machine Learning</label>
+              </fieldset><br>   
+            <label for="comments"><strong>Any comments or suggestions would be appreciated</strong></label><br>
+            <textarea placeholder="Enter any suggestion..." id="comment"></textarea><br>
+            <input type="submit" id="submit"><br><br>
+
+        </form>
+    </div>
+</body>
+</html>

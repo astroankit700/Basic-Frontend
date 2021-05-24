@@ -1,0 +1,83 @@
+        #main {
+            background:cornsilk;
+            /* text-align: center; */
+        }
+        #title {
+            background-color: hsl(60,30%,85%);
+            padding: 1px 1px 1px 1px;
+            /* margin: auto; */
+            width: 100%;
+            border-radius: 15px;
+        }
+        h1, h2 {
+            text-align: center;
+            font-family: calibri;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 25px;
+            margin-top: -30px;
+        }
+        #image {
+            max-width:100%;
+            display: block;
+            margin: 0 auto;
+            height: auto;
+            border: 5px solid #c0c0c0;
+            border-radius: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0px 10px 20px 2px rgba(0,0,0,0.19), 0px 6px 6px 1px rgba(0,0,0,0.23);
+
+
+
+        }
+        #img-div {
+            /* background: linear-gradient(135deg, cornsilk,#c0c0c0); */
+            width:70%;
+            margin: 10px auto;
+        }
+
+        #img-caption {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 10px;
+        }
+        p.heading {
+            margin: 20px 50px 10px 50px;
+            font-size: 17px;
+
+        }
+        section p {
+            margin-top: 50px;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+        section ul {
+            width: fit-content;
+            text-align: left;
+            margin: 0px auto;
+            font-size: 20px;
+        }
+        section li {
+            /* margin:0 auto 10px auto; */
+            line-height: 2;
+            font-weight:500;
+        }
+        /* .list {
+            margin:0 auto 20px auto;;
+            background-color: ivory;
+            width:fit-content;
+        } */
+        footer {
+            margin: 25px;
+            font-size: 25px;
+            text-align: center;
+            font-style:italic;
+        }
+        footer a:hover {
+            color: magenta;
+        }
