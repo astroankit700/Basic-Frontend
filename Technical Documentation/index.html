@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar"><h1><header>Navigation</header></h1><hr>
+        <ul>
+            <li><a class="nav-link" href="#HTML">Introduction</a></li><hr>
+            <li><a class="nav-link" href="#History">History</a></li><hr>
+            <li><a href="#Development">Development</a></li><hr>
+            <li><a href="#HTML-versions-timeline">HTML versions timeline</a></li><hr>
+            <li><a href="#HTML-draft-version-timeline">HTML draft version timeline</a></li><hr>
+            <li><a class="nav-link" href="#Markup">Markup</a></li><hr>
+            <li><a class="nav-link" href="#Semantic_HTML">Semantic HTML</a></li><hr>
+            <li><a class="nav-link" href="#HTML4_variations">HTML4 variations</a></li><hr>
+            <li><a href="#"><h2>Navigate by year:</h2></a></li><hr>
+            <li><a href="#1991">1991</a></li><hr>
+            <li><a href="#1992">1992</a></li><hr>
+            <li><a href="#1995">1995</a></li><hr>
+            <li><a href="#1997">1997</a></li><hr>
+            <li><a href="#2008">2008</a></li><hr>
+            <li><a href="#2011">2011</a></li><hr>
+            <li><a href="#2012">2012</a></li><hr>
+            <li><a href="#2014">2014</a></li><hr>
+            
+        </ul>
+
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="HTML">
+            <header><h1>HTML</h1></header>
+            <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be
+                 displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) 
+                 and scripting languages such as JavaScript.</p>
+            <p>Web browsers receive HTML documents from a web server or from local storage and render the documents
+                 into multimedia web pages. HTML describes the structure of a web page semantically and originally 
+                 included cues for the appearance of the document.</p>
+                 <p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects
+                      such as interactive forms may be embedded into the rendered page. HTML provides a means to create 
+                      structured documents by denoting structural semantics for text such as headings, paragraphs, lists,
+                       links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+                        Tags such as <code>&lt;img /&gt;</code> and <code>&lt;input /&gt;</code> directly introduce content into the page.
+                         Other tags such as <code>&lt;p&gt;</code>
+                             surround and provide information about document text and may include other tags as sub-elements.
+                              Browsers do not display the HTML tags, but use them to interpret the content of the page.</p>
+        </section>
+        <section class="main-section" id="History">
+            <header><h1>History</h1></header>
+            <section>
+                <header id="Development"><h2>Development</h2></header>
+                <p>In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and prototyped ENQUIRE, 
+                    a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo
+                     proposing an Internet-based hypertext system. Berners-Lee specified HTML and wrote the browser
+                      and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert
+                       Cailliau collaborated on a joint request for funding, but the project was not formally adopted
+                        by CERN. In his personal notes from 1990 he listed "some of the many areas in which hypertext
+                         is used" and put an encyclopedia first.</p>
+            </section>
+            <section>
+                <header><h2 id="HTML-versions-timeline">HTML versions timeline</h2></header>
+                <ul>
+                    <li>HTML2&emsp; <span class="li-item">November 24, 1995</span></li>
+                    <li>HTML3&emsp; <span>January 14, 1997</span></li>
+                    <li>HTML4&emsp; <span>December 18, 1997</span></li>
+                    <li>HTML5&emsp; <span>October 28, 2014</span></li>
+                </ul>
+                <header><h2 id="HTML-draft-version-timeline">HTML draft version timeline</h2></header>
+                <ul>
+                    <li>October 1991</li>
+                    <dd>HTML Tags, an informal CERN document listing 18 HTML tags, was first mentioned in public.</dd><br>
+                    <li>June 1992</li>
+                    <dd>First informal draft of the HTML DTD, with seven subsequent revisions 
+                        (July 15, August 6, August 18, November 17, November 19, November 20, November 22).</dd><br>
+                    <li>November 1992<br><dd>HTML DTD 1.1 (the first with a version number, based on RCS revisions,
+                         which start with 1.1 rather than 1.0), an informal draft.</dd></li><br>
+                         <li>January 2008<br><dd>
+                            HTML5 was published as a Working Draft by the W3C.<br>
+                            Although its syntax closely resembles that of SGML, HTML5 has abandoned any
+                             attempt to be an SGML application and has explicitly defined its own "html" serialization,
+                              in addition to an alternative XML-based XHTML5 serialization.</dd></li><br>
+                              <li><dt>2014 HTML5 – Proposed Recommendation and Recommendation</dt>
+                            <dd>In September 2014, W3C moved HTML5 to Proposed Recommendation.<br>
+                                On 28 October 2014, HTML5 was released as a stable W3C Recommendation, meaning the specification process is complete.</dd></li>
+                </ul>
+            </section>
+        </section>
+        <section class="main-section" id="Markup">
+            <header><h1>Markup</h1></header>
+            <p>HTML markup consists of several key components, including those called tags (and their attributes),
+                 character-based data types, character references and entity references. HTML tags most commonly come in pairs like
+                 <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code>, although some represent empty elements and so are unpaired, for example
+                 <code> &lt;img&gt;</code>. The first tag in such a pair is the start tag, and the second is the end tag (they are also called 
+                 opening tags and closing tags).</p>
+                 <p>The following is an example of the classic "Hello, World!" program:</p>
+                 <code><div class="code"><pre>
+                     
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+        &lt;title&gt;This is a title&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;div&gt;
+            &lt;p&gt;Hello world!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+                    </pre></div></code>
+        </section>
+        <section class="main-section" id="Semantic_HTML">
+            <header><h1>Semantic HTML</h1></header>
+            <p>Semantic HTML is a way of writing HTML that emphasizes the meaning of the encoded information
+                over its presentation (look). HTML has included semantic markup from its inception,
+                but has also included presentational markup, such as &lt;font&gt;, &lt;i&gt; and &lt;center&gt;
+                tags. There are also the semantically neutral span and div tags. Since the late 1990s, when Cascading
+                Style Sheets were beginning to work in most browsers, web authors have been encouraged to avoid the use 
+                of presentational HTML markup with a view to the separation of presentation and content.</p>
+                <p>In a 2001 discussion of the Semantic Web, Tim Berners-Lee and others gave examples of ways 
+                    in which intelligent software "agents" may one day automatically crawl the web and find, 
+                    filter and correlate previously unrelated, published facts for the benefit of human users.
+                    Such agents are not commonplace even now, but some of the ideas of Web 2.0, mashups and price 
+                    comparison websites may be coming close. The main difference between these web application hybrids 
+                    and Berners-Lee's semantic agents lies in the fact that the current aggregation and hybridization 
+                    of information is usually designed in by web developers, who already know the web locations and the 
+                    API semantics of the specific data they wish to mash, compare and combine.</p>
+                </section>
+                <section class="main-section" id="HTML4_variations">
+                <header><h1>HTML4 variations</h1></header>
+                <p>Since its inception, HTML and its associated protocols gained acceptance relatively quickly.
+                     However, no clear standards existed in the early years of the language. Though its creators originally 
+                     conceived of HTML as a semantic language devoid of presentation details, practical uses pushed many
+                      presentational elements and attributes into the language, driven largely by the various browser vendors.
+                       The latest standards surrounding HTML reflect efforts to overcome the sometimes chaotic development of 
+                       the language and to create a rational foundation for building both meaningful and well-presented documents.
+                        To return HTML to its role as a semantic language, the W3C has developed style languages such as CSS and XSL
+                         to shoulder the burden of presentation. In conjunction, the HTML specification has slowly reined in the
+                          presentational elements.</p>
+
+                    <p>There are two axes differentiating various variations of HTML as currently specified:
+                         SGML-based HTML versus XML-based HTML (referred to as XHTML) on one axis, and strict
+                          versus transitional (loose) versus frameset on the other axis.</p>
+
+        </section>
+
+    </main>
+</body>
